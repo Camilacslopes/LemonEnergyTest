@@ -64,7 +64,7 @@ const LoadingBar = styled.div(
   `,
 )
 
-const formatStats = ({ repos, gists }) => [
+const formatStats = ({ repos, gists }) =>  [
   {
     icon: <RepositoryIcon />,
     value: repos,
@@ -73,7 +73,9 @@ const formatStats = ({ repos, gists }) => [
     icon: <GistIcon />,
     value: gists,
   },
-]
+
+] 
+
 
 const Assignment = () => {
   const [{ loading, error, users = [] }, { fetchMore }] = useUsers()

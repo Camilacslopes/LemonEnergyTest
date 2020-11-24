@@ -85,7 +85,6 @@ const Footer = styled(PartialContainer)(
         vertical-align: middle;
         height: 16px;
       }
-
       color: ${colors.text.caption};
     }
 
